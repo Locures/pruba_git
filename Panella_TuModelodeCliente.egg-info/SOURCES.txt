@@ -1,0 +1,9 @@
+setup.py
+Panella_TuModelodeCliente.egg-info/PKG-INFO
+Panella_TuModelodeCliente.egg-info/SOURCES.txt
+Panella_TuModelodeCliente.egg-info/dependency_links.txt
+Panella_TuModelodeCliente.egg-info/top_level.txt
+segunda_entrega/__init__.py
+segunda_entrega/entrega6.py
+segunda_entrega/modulo_1.py
+segunda_entrega/moludo_2.py

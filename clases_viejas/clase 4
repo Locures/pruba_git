@@ -1,0 +1,55 @@
+# prueba de usuario numero prueba
+
+#numero_ingresado = 2
+
+
+# segundo
+
+# num_1 =  int(input("ingrese el primer numero: "))
+# num_2 =  int(input("ingrese el segundo numero: "))
+
+# bandera = True
+# while bandera:
+#     opcion = input('''ingrese operacion a ejecutar 
+#     1. Suma
+#     2. Resta
+#     3. Multiplicacion
+#     4. Salir
+#     opcion selecionada: ''')
+
+#     if opcion == '1':
+#         print(num_1+num_2)
+#     elif opcion == '2':
+#         print(num_1 - num_2)
+#     elif opcion == '3':
+#         print(num_1 * num_2)
+#     elif opcion == '4':
+#         bandera = False
+#         # print("no vemo")
+#     else:
+#         print("no es correcto")
+# else:
+#     print("nos")
+
+
+# # tercero
+#  El total o exit?
+
+# Solicitar al usuario la cantidad de numeros enteros a sumar.
+# Luego permitirle ingresarlos uno por uno hasta que se ingresen todos o el usuario escriba la palabra ‘exit’.  
+# El programa debe validar que se ingreso ‘exit’ y dejar de solicitar numeros. 
+
+# Finalmente, el algoritmo debe mostrar la suma obtenida con un mensaje que resalte si fue total la carga de datos o parcial (debido al ingreso de ‘exit’).
+
+cant_num = int(input("cantidad de numeros: "))
+
+suma = 0
+for i in range(cant_num):
+    numero_string = input('Ingrese numero a sumar:')
+    if numero_string == 'exit':
+        print("la suma parcial da", suma)
+        break
+    else:
+        suma += int(numero_string)
+else:
+    print("La suma total", suma)
